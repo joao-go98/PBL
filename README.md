@@ -6,4 +6,8 @@ If you're a developer and want to explore the codebase, you can clone the PBL re
 
 ```
 git clone https://github.com/joao-go98/PBL.git
+
+npm install
+
+npm run dev
 ```
