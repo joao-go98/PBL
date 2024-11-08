@@ -1,4 +1,4 @@
-![homepage](https://github.com/user-attachments/assets/93ff0f41-7651-4cc9-b049-fad9c837baa3)# Primeira Liga Betting Simulator (PBL) 🇵🇹⚽️
+# Primeira Liga Betting Simulator (PBL) 🇵🇹⚽️
 
 ## Clone the Repository 🔍
 
@@ -12,7 +12,7 @@ npm install
 npm run dev
 ```
 
-## Screenshots 🔍
+## Screenshots 🏆
 
 ![homepage](https://github.com/user-attachments/assets/edd2926c-2718-4f39-a243-5c852d2c1246)
 
