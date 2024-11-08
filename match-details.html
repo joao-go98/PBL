@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Details - Primeira Liga Betting Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Match Details</h1>
+        <div class="balance">Balance: <span id="balance"></span>€</div>
+        <button id="logout-button" class="logout-button">Logout</button>
+    </div>
+
+    <main>
+        <div id="match-details" class="match-details">
+            <div class="loading">Loading match details...</div>
+        </div>
+        
+        <div class="betting-section">
+            <h2>Available Bets</h2>
+            <div id="betting-options" class="betting-options">
+                <!-- Betting options will be populated here -->
+            </div>
+        </div>
+
+        <div class="team-stats">
+            <div class="team-column home-team">
+                <h2>Home Team Stats</h2>
+                <div id="home-team-stats"></div>
+            </div>
+            <div class="team-column away-team">
+                <h2>Away Team Stats</h2>
+                <div id="away-team-stats"></div>
+            </div>
+        </div>
+
+        <div class="related-bets">
+            <h2>Your Bets on This Match</h2>
+            <div id="match-bets"></div>
+        </div>
+    </main>
+
+    <script type="module" src="match-details.js"></script>
+</body>
+</html>

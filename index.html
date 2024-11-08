@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Liga Betting Simulator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1 onclick="window.location.href='index.html'">Betting Simulator</h1>
+        <div class="balance">Balance: <span id="balance"></span>€</div>
+        <button id="logout-button" class="logout-button">Logout</button>
+    </div>
+    
+    <div id="competition-info"></div>
+    <div id="matches"></div>
+    
+    
+    <script type="module" src="simulator.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+</body>
+</html>
